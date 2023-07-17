@@ -6,7 +6,35 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
+    background: whitesmoke;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background: whitesmoke;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+header{
+    background-color: #fff;
+}
+
+#header{
+    display:flex;
+    justify-content: space-around;
 }
