@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    background: whitesmoke;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+header{
+    background-color: #fff;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    min-height: 70px;
+    padding: 0 20px;
+    /* background-color: #fff; */
+}
+
+#header button{
+    font-family: inherit;
+    border: 1px solid lightslategray;
+}
+
+#create_card{
+    display: block;
+    width: 370px;
+    margin: auto;
+    padding: 20px;
+    margin-top:10px;
+    background: whitesmoke;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.9);
+    /*box-shadow는 첫번째 인자가 좌우, 그다음이 위아래, 그다음이 blur효과
+    마지막 4번째 인자는 radius이다.*/
+}
+
+#create_card h2{
+    color: black;
+    text-align: center;
+}
+
+#create_card textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-family: inherit;
+    border: 1px solid lightgray;
+    resize: none;
+}
+
+#flashcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.flashcard{
+    background: #fff;
+}
+
+/* #create_card button{width: fit-content;} */
